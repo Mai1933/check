@@ -21,6 +21,8 @@
 ・Laravel 8.83.27
 ・MySQL 8.0.26
 
+## ER図
+![ER図](./ER図.drawio.pdf)
 ## URL
 
 ・開発環境：http://localhost/
