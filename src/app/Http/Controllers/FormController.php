@@ -10,4 +10,9 @@ class FormController extends Controller
     {
         return view('contact');
     }
+
+    public function confirm()
+    {
+        return view('confirm');
+    }
 }

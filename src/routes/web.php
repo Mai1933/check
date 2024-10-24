@@ -5,3 +5,5 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', [FormController::class, 'index']);
+
+Route::get('/confirm', [FormController::class, 'confirm']);
