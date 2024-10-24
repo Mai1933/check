@@ -1,0 +1,14 @@
+body {
+    font-family: "Inika", serif;
+    color: #8B7969;
+}
+
+.header_ttl {
+    width: 40%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.header_ttl-logo {
+    font-size: 40px;
+}

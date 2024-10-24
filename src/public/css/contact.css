@@ -1,0 +1,99 @@
+input {
+    border: none;
+    background-color: #F4F4F4;
+    height: 38px;
+}
+
+.contact-form p {
+    font-size: 20px;
+}
+
+.contact {
+    max-width: 1512px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_content {
+    width: 65%;
+    margin: 20px auto;
+}
+
+.content_ttl {
+    width: 100%;
+    text-align: center;
+}
+
+.ttl_logo {
+    font-size: 35px;
+}
+
+.contact-form {
+    margin: 30px auto;
+}
+
+.name_ttl {
+    width: 30%;
+    text-align: left;
+}
+
+.name_ttl-logo {
+    font-size: 20px;
+    margin: 0;
+}
+
+.name-row>input {
+    height: 38px;
+    width: 30%;
+}
+
+.name-row {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin: 10px 0;
+}
+
+.gender-row {
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.gender-ttl {
+    width: 30%;
+    text-align: left;
+}
+
+
+.radio_options {
+    display: block;
+    width: 65%;
+}
+.gender_radio:first-child {
+    margin-left: 3%;
+}
+
+.gender_radio {
+    height: 20px;
+    width: 20px;
+    margin-left: 5%;
+}
+
+.email-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    margin: 30px 0;
+}
+
+.email-ttl {
+    width: 30%;
+    text-align: left;
+}
+
+.email_input {
+    width: 65%;
+}
