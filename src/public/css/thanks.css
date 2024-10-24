@@ -1,0 +1,54 @@
+.thanks {
+    position: relative;
+    margin: 10% auto;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks_back {
+    width: 1000px;
+}
+
+.thanks_back-logo {
+    color: rgba(139, 121, 105, 0.05);
+    font-family: Inika;
+    font-size: 220px;
+    white-space: nowrap;
+}
+
+.thanks_content {
+    z-index: 10;
+    position: absolute;
+    left: 50%;
+    top: 57%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.thanks_sentence-content {
+    color: #8B7969;
+    font-family: Inika;
+    font-size: 30px;
+}
+
+.home_button {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.button_return {
+    display: inline-flex;
+    padding: 10px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background: #82756A;
+    border: none;
+    color: #FFF;
+}
