@@ -1,0 +1,251 @@
+.admin {
+    margin: 50px auto;
+}
+
+.admin_content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.content_ttl {
+    display: flex;
+    justify-content: center;
+}
+
+.ttl_logo {
+    color: #8B7969;
+    font-family: Inika;
+    font-size: 35px;
+}
+
+.search_form {
+    margin-top: 30px;
+}
+
+.inputs {
+}
+
+.inputs_row {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input_name {
+    width: 350px;
+    height: 50px;
+    border: 1px solid #E3DED9;
+    background: #FBFBFB;
+    color: #BEB1A6;
+    font-family: Inika;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.select_gender {
+    width: 102px;
+    height: 50px;
+    border: 1px solid #E3DED9;
+    background: #F4F4F4;
+    color: #8B7969;
+    text-align: left;
+    padding-left:22px ;
+    font-family: Inika;
+    font-size: 17px;
+    appearance: none;
+}
+
+.select_gender-group {
+    position: relative;
+    margin: 0;
+    z-index: 0;
+}
+
+.select_gender-group::after {
+    content: "▼";
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 17px;
+    height: 20px;
+    z-index: 10;
+}
+
+.select_category {
+    width: 223px;
+    height: 50px;
+    border: 1px solid #E3DED9;
+    background: #F4F4F4;
+    color: #8B7969;
+    font-family: Inika;
+    font-size: 17px;
+    padding-left: 22px;
+    appearance: none;
+}
+
+.select_category-group {
+    position: relative;
+    margin: 0;
+    z-index: 0;
+}
+
+.select_category-group::after {
+    content: "▼";
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 17px;
+    height: 20px;
+    z-index: 10;
+}
+
+.input_date {
+    width: 149px;
+    height: 50px;
+    border: 1px solid #E3DED9;
+    background: #F4F4F4;
+    color: #8B7969;
+    font-family: Inika;
+    font-size: 17px;
+}
+
+.search_button {
+    width: 102px;
+    height: 50px;
+    flex-shrink: 0;
+    border: 1px solid #8B7969;
+    background: #82756A;
+    color: #FFF;
+    text-align: center;
+    font-family: Inika;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.reset_button {
+    width: 102.476px;
+    height: 50px;
+    flex-shrink: 0;
+    border: 1px solid #D9C6B5;
+    background: #D9C6B5;
+    color: #FFF;
+    text-align: center;
+    font-family: Inika;
+    font-size: 18px;
+    font-style: normal;
+}
+
+.second_inputs {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.export_button {
+    display: flex;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(225, 219, 214, 0.60);
+    border: rgba(225, 219, 214, 0.60);
+    color: #8B7969;
+    font-family: Inika;
+    font-size: 18px;
+}
+
+.pagination {
+    display: flex;
+    border-radius: 5px;
+    background: #FFF;
+    list-style: none;
+}
+
+.pagination li {
+    border: 1px solid #E0DFDE;
+    height: 31px;
+    width: 31px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination_number {
+    text-decoration: none;
+    color: #8B7969;
+    font-family: Inika;
+    font-size: 18px;
+    padding:0 10px;
+}
+
+@media (hover:hover) {
+    li:hover {
+        background-color: #82756A;
+    }
+    a:hover {
+        color: #FFF;
+    }
+}
+
+.details {
+    margin-top: 27px;
+}
+
+.details_table {
+    width: 1200px;
+    border: 1px solid #E0DFDE;
+}
+
+.details_table-header {
+    width: 100%;
+    height: 59px;
+    background: #8B7969;
+    color: #FFF;
+    font-family: Inika;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.details_table-content {
+    width: 100%;
+    height: 59px;
+    color: #8B7969;
+    font-family: Inika;
+    font-size: 20px;
+    text-align: center;
+}
+
+.name {
+    width: 170px;
+}
+
+.gender {
+    width: 100px;
+}
+
+.email {
+    width: 300px;
+}
+
+.category {
+    width: 450px;
+}
+
+.button {
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    height: 59px;
+    align-items: center;
+}
+
+.detail_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(217, 198, 181, 0.60);
+    background: rgba(244, 244, 244, 0.30);
+    width: 76px;
+    height: 41px;
+    color: #D9C6B5;
+    font-family: Inika;
+    font-size: 18px;
+}
