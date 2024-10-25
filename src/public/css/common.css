@@ -8,6 +8,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background: #FFF;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
 
 .header_ttl {
