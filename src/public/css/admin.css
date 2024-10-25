@@ -249,3 +249,118 @@
     font-family: Inika;
     font-size: 18px;
 }
+
+.admin_modal {
+    width: 780px;
+    height: 830px;
+    border: 1px solid #8B7969;
+    background: #FFF;
+}
+
+.admin_modal_content {}
+
+.close_button {
+    margin-top: 30px;
+    display: flex;
+    justify-content: right;
+    padding-right: 38px;
+}
+
+.close_button-x {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #8B7969;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #8B7969;
+    font-family: Inika;
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+    cursor: pointer;
+}
+
+.info-form {
+    margin:75px auto;
+}
+
+.info {
+    width: 640px;
+    margin: auto;
+}
+
+.info_name {
+    line-height: 55px;
+}
+
+.info_gender {
+    line-height: 55px;
+}
+
+.info_email {
+    line-height: 55px;
+}
+
+.info_tell {
+    line-height: 55px;
+}
+
+.info_address {
+    line-height: 55px;
+}
+
+.info_building {
+    line-height: 55px;
+}
+
+.info_category {
+    line-height: 55px;
+}
+
+.info_content {
+    padding-top: 20px;
+    display: flexbox;
+    align-items: first baseline;
+}
+
+.delete_button {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.delete_button-submit {
+    width: 76px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #BA370D;
+    color: #FFF;
+    font-family: Inika;
+    font-size: 18px;
+    border: none;
+}
+
+.info th {
+    color: #8B7969;
+    font-family: Inika;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    width: 220px;
+    margin-top: 35px;
+}
+
+.info td {
+    color: #8B7969;
+    font-family: Inika;
+    font-size: 20px;
+    width: 413px;
+    margin-left: 45px;
+}
+
+.info_content td {
+    font-size: 18px;
+}

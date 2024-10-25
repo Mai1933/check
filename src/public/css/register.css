@@ -1,0 +1,115 @@
+.register {
+    margin: 0 auto;
+    background: #F1ECE7;
+    height: 1000px;
+}
+
+.register_content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.content_ttl {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.ttl_logo {
+    color: #8B7969;
+    font-family: Inika;
+    font-size: 35px;
+}
+
+.content_form {
+    width: 735px;
+    height: 645px;
+    border-radius: 10px;
+    border: 1px solid #C5B9B0;
+    background: #FFF;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.register-form {
+    margin-top: 90px;
+}
+
+.form_name-ttl {
+    color: #8B7969;
+    font-family: Inika;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.name_input {
+    width: 445px;
+    height: 55px;
+    background: #F4F4F4;
+    color: #BEB1A6;
+    font-family: Inika;
+    font-size: 14px;
+    border: none;
+    padding-left: 27px;
+}
+
+.form_mail {
+    margin-top: 45px;
+}
+
+.form_mail-ttl {
+    color: #8B7969;
+    font-family: Inika;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.email_input {
+    width: 445px;
+    height: 55px;
+    background: #F4F4F4;
+    color: #BEB1A6;
+    font-family: Inika;
+    font-size: 14px;
+    border: none;
+    padding-left: 27px;
+}
+
+.form_password {
+    margin-top: 45px;
+}
+
+.form_password-ttl {
+    color: #8B7969;
+    font-family: Inika;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.password_input {
+    width: 445px;
+    height: 55px;
+    background: #F4F4F4;
+    color: #BEB1A6;
+    font-family: Inika;
+    font-size: 14px;
+    border: none;
+    padding-left: 27px;
+}
+
+.form_button {
+    margin-top: 63px;
+    display: flex;
+    justify-content: center;
+}
+
+.form_button-register {
+    display: flex;
+    padding: 10px 40px;
+    background: #82756A;
+    color: #FFF;
+    font-family: Inika;
+    font-size: 20px;
+    border: none;
+}

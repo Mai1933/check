@@ -1,0 +1,37 @@
+body {
+    font-family: "Inika", serif;
+    color: #8B7969;
+}
+
+.header {
+    border-bottom: 1px solid rgba(224, 223, 222, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFF;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+}
+
+.header_ttl {
+    width: 700px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 500px;
+}
+
+.header_ttl-logo {
+    font-size: 40px;
+}
+
+.logout {
+    display: flex;
+    width: 98px;
+    height: 32px;
+    justify-content: center;
+    border: none;
+    color: #D9C6B5;
+    font-family: Inika;
+    font-size: 20px;
+}

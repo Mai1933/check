@@ -13,3 +13,5 @@ Route::get('/thanks', [FormController::class, 'thanks']);
 Route::get('/admin', [FormController::class, 'admin']);
 
 Route::get('/login', [FormController::class, 'login']);
+
+Route::get('/register', [FormController::class, 'register']);
