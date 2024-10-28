@@ -19,7 +19,7 @@
                 <span class="thanks_back-logo">Thank you</span>
             </div>
             <div class="thanks_content">
-                <form action="/">
+                <form action="/" method="post">
                     @csrf
                     <div class="thanks_sentence">
                         <span class="thanks_sentence-content">お問い合わせありがとうございました</span>

@@ -1,3 +1,20 @@
+.table input {
+    color: #8B7969;
+    font-family: Inika;
+    font-size: 20px;
+    border: none;
+}
+
+.table textarea {
+    color: #8B7969;
+    font-family: Inika;
+    font-size: 20px;
+    border: none;
+    width: 459px;
+    height: 52.209px;
+    resize: none;
+}
+
 .confirm {
     margin: 50px auto;
 }

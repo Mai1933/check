@@ -12,6 +12,7 @@ body {
     position: sticky;
     top: 0px;
     width: 100%;
+    z-index: 100;
 }
 
 .header_ttl {
@@ -34,4 +35,5 @@ body {
     color: #D9C6B5;
     font-family: Inika;
     font-size: 20px;
+    cursor: pointer;
 }

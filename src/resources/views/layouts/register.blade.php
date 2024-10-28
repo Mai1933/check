@@ -15,12 +15,15 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="header_ttl">
-            <span class="header_ttl-logo">FashionablyLate</span>
-        </div>
-        <button class="logout">register</button>
-    </header>
+    <form action="/register" method="post">
+        @csrf
+        <header class="header">
+            <div class="header_ttl">
+                <span class="header_ttl-logo">FashionablyLate</span>
+            </div>
+            <button class="logout" type="submit">register</button>
+        </header>
+    </form>
     <main>
         @yield('content')
     </main>

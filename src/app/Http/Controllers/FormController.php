@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Models\Category;
+use App\Models\Contact;
+use Request;
+use App\Http\Requests\ContactRequest;
 
 class FormController extends Controller
 {
@@ -11,9 +14,32 @@ class FormController extends Controller
         return view('contact');
     }
 
-    public function confirm()
+
+    public function confirm(ContactRequest $request)
     {
-        return view('confirm');
+        $contact = $request->only(['last_name', 'first_name', 'gender', 'tell1', 'tell2', 'tell3', 'email', 'address', 'building', 'category_id', 'detail']);
+        $tell = $contact['tell1'] . $contact['tell2'] . $contact['tell3'];
+
+
+        return view('confirm', compact('contact', 'tell'));
+    }
+
+    public function store(Request $request)
+    {
+        $content = $request->only(['last_name', 'first_name', 'gender', 'tell', 'email', 'address', 'building', 'category_id', 'detail']);
+        Contact::create($content);
+        return view('thanks');
+    }
+
+    public function button(Request $request)
+    {
+        $contact = $request::all();
+        
+        if ($request->has('send')) {
+            return redirect('/confirm/store')->withInput($contact);
+        } elseif ($request->has('correct')) {
+            return back()->withInput($contact);
+        }
     }
 
     public function thanks()
