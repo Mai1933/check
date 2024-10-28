@@ -12,5 +12,8 @@ class Contact extends Model
     protected $guarded = array('id');
     protected $fillable = ['first_name', 'last_name', 'gender', 'email', 'tell', 'address', 'building', 'category_id', 'detail'];
 
-
+    public function category()
+    {
+        return $this->hasMany('Aoo\Models\Category');
+    }
 }

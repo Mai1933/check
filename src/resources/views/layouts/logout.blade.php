@@ -19,7 +19,10 @@
         <div class="header_ttl">
             <span class="header_ttl-logo">FashionablyLate</span>
         </div>
-        <button class="logout">Logout</button>
+        <form action="/logout" method="post">
+            @csrf
+            <button class="logout">Logout</button>
+        </form>
     </header>
     <main>
         @yield('content')

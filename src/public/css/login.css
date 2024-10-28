@@ -4,6 +4,11 @@
     height: 1000px;
 }
 
+.login_alert-error {
+    display: flex;
+    justify-content: center;
+}
+
 .login_content {
     width: 1000px;
     margin: 0 auto;
