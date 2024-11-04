@@ -11,7 +11,7 @@
             <div class="content_ttl">
                 <span class="ttl_logo">Confirm</span>
             </div>
-            <form class="confirm_form" action="/confirm/button" method="post">
+            <form class="confirm_form" method="post">
                 @csrf
                 <table class="table">
                     <tr>
@@ -106,8 +106,8 @@
                     </tr>
                 </table>
                 <div class="confirm_button">
-                    <button class="confirm_button-submit" type="submit" name="send">送信</button>
-                    <button class="confirm_button-correction" type="submit" name="correct">修正</button>
+                    <button class="confirm_button-submit" type="submit" formaction="/confirm/store">送信</button>
+                    <button class="confirm_button-correction" type="submit" formaction="/confirm/correct">修正</button>
                 </div>
             </form>
         </div>

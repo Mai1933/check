@@ -7,13 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
 {
-    use HasFactory;
+        protected $fillable = ['content'];
 
-    protected $guarded = array('id');
-
-    protected $fillable = ['content'];
-
-    public function contacts(){
+    public function contacts()
+    {
         return $this->belongsTo('App\Models\Contact');
     }
 }

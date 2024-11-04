@@ -18,6 +18,7 @@ class ContactFactory extends Factory
             'tell' => $this->faker->phoneNumber(11),
             'address' => $this->faker->address,
             'building' => $this->faker->secondaryAddress,
+            'category_id' => $this->faker->numberBetween(1,5),
             'detail' => $this->faker->realText(120),
         ];
     }

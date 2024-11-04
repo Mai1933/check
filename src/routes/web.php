@@ -12,12 +12,13 @@ Route::post('/', [FormController::class, 'index']);
 
 Route::post('/confirm', [FormController::class, 'confirm']);
 
-Route::post('/confirm/button', [FormController::class, 'button']);
+Route::post('/confirm/correct', [FormController::class, 'correct']);
 
 Route::post('/confirm/store', [FormController::class, 'store']);
 
 Route::get('/thanks', [FormController::class, 'thanks']);
 
 Route::get('/admin', [AuthController::class, 'admin']);
+
 
 
